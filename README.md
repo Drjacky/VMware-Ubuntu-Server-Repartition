@@ -9,6 +9,7 @@ http://free.nchc.org.tw/gparted-live/stable/
 ```
 
 Then boot OS from CD(gparted).
+
 *Note: If you can't boot from CD, add below line to .vmx file:
 
 ```javascript
@@ -23,6 +24,7 @@ Remove SWAP
 Remove Extended
 
 Increase sda1.
+
 *Note: You should keep 16GB for SWAP disk.
 
 Build Extended
@@ -47,7 +49,9 @@ sudo mkswap /dev/sda5
 
 Write given UUID somewhere for future use.
 
+```javascript
 nano /etc/fstab
+```
 
 Replace new UUID with the old one.
 
