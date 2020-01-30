@@ -1,4 +1,4 @@
-# VMware-Ubuntu-Server-Repartition
+# VMware Ubuntu Server Repartition
 How to repartition ubuntu-server-cli
 
 In VMware, expand disk.
